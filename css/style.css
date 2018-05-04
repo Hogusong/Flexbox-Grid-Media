@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.5;
+  margin: 2vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  float: left;
+  background: greenyellow;
+  position: fixed;
+  padding: 2vw;
+  height: 92vh;
+  width: 25%;
+  text-align: center;
+}
+
+.sidebar h1 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.content {
+  position: relative;
+  float: right;
+  width: 68%;
+  left: 32%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top {
+  background: lavender;
+  padding: 3vw;
+  margin-bottom: 20px;
+}
+
+.top h1 {
+  margin-bottom: 10px;
+}
+
+.top p {
+  margin-bottom: 7px;  
+}
+
+.content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.grid p {
+  color: white;
+}
+
+.grid-item {
+  background: lightpink;
+  padding: 5px 8px;
+}
+
+b, strong, i, cite, em{
+  color: magenta;
+}
+
+var, dfn, code, kbd, samp, sup, sub {
+  color: black;
+  text-decoration: underline;
+}
+
